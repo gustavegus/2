@@ -7,6 +7,6 @@
         'locked': False}
 print(f"золото : {сундук['gold']}")
 сундук['gold'] += 50
-print(f"вы нашли еще золотые монеты ! : {сундук['gold']}")
+print(f"вы нашли еще золотые монеты в логове дракона ! : {сундук['gold']}")
 vtoroq_predmet = сундук['items'][1]['name']
 print(f"второй предмет : {vtoroq_predmet}")
